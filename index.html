@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil NLP Virtual Lab</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <p id="loadStatus"></p>
+
+    <h1>Tamil Based NLP Virtual Lab</h1>
+    <h2>YOU ARE A NLP ENGINEER🧑🏻‍💻</h2>
+    <p>Enter a word and fill the linguistic features.  
+       Click “Check Answer” or “Show Correct Analysis”.</p>
+
+    <!-- Word Input -->
+    <div class="input-section">
+    <label for="word-input">Word:</label>
+    <input type="text" id="word-input" list="word-list" placeholder="Eg : Tree (Based on Tamil Knowledge)">
+    
+    <datalist id="word-list"></datalist>
+</div>
+    
+    <!-- Feature Inputs -->
+    <div class="fields-grid">
+
+        <div class="field">
+            <label>Root</label>
+            <input type="text" id="root">
+        </div>
+
+        <div class="field">
+            <label>Category</label>
+            <select id="category">
+                <option value="">Select</option>
+                <option>Noun</option>
+                <option>Verb</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Gender</label>
+            <select id="gender">
+                <option value="">Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Neuter</option>
+                <option>N/A</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Number</label>
+            <select id="number">
+                <option value="">Select</option>
+                <option>Singular</option>
+                <option>Plural</option>
+                <option>N/A</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Person</label>
+            <select id="person">
+                <option value="">Select</option>
+                <option>First</option>
+                <option>Second</option>
+                <option>Third</option>
+                <option>N/A</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Case</label>
+            <select id="case">
+                <option value="">Select</option>
+                <option>Nominative</option>
+                <option>Accusative</option>
+                <option>N/A</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Tense</label>
+            <select id="tense">
+                <option value="">Select</option>
+                <option>Present</option>
+                <option>Past</option>
+                <option>Future</option>
+                <option>Simple-present</option>
+                <option>N/A</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button id="check-btn">Check Answer</button>
+        <button id="show-btn">Show Correct Analysis</button>
+        <button id="reset-btn">Reset</button>
+        <button id="generate-btn">Generate Word</button>
+
+    </div>
+
+    <!-- Result -->
+    <div id="result" class="result-box"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

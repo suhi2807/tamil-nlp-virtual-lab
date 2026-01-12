@@ -1,0 +1,1023 @@
+[
+ {
+  "Word (English)": "Chair",
+  "Root (Tamil)": "Chair",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "உட்கார பயன்படும் பொருள்",
+  "Meaning (English)": "Object used for sitting",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Chair" },
+  { "step": 2, "title": "Tokenization", "detail": "[Chair]" },
+  { "step": 3, "title": "Embedding", "detail": "Chair → [0.21, -0.45, 0.88, 0.12, ...]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Chair close to Table but Chair far from Run" },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps concept to meaning." }
+]
+}
+,
+ {
+  "Word (English)": "Table",
+  "Root (Tamil)": "Table",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "மேசை",
+  "Meaning (English)": "Furniture for keeping objects",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Table" },
+  { "step": 2, "title": "Tokenization", "detail": "[Table]" },
+  { "step": 3, "title": "Embedding", "detail": "Table → [0.12, -0.44, 0.72, 0.05]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Table is close to Chair and Wood, but far from Water." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps concept to furniture used for support." }
+ ]
+ },
+ {
+  "Word (English)": "Man",
+  "Root (Tamil)": "Man",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "ஆண்",
+  "Meaning (English)": "Man",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Man" },
+  { "step": 2, "title": "Tokenization", "detail": "[Man]" },
+  { "step": 3, "title": "Embedding", "detail": "Man → [0.85, 0.12, -0.05, 0.44]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Man is close to Boy and Human, but far from Animal." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies adult male human concept." }
+ ]
+ },
+ {
+  "Word (English)": "Woman",
+  "Root (Tamil)": "Woman",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "பெண்",
+  "Meaning (English)": "Woman",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Woman" },
+  { "step": 2, "title": "Tokenization", "detail": "[Woman]" },
+  { "step": 3, "title": "Embedding", "detail": "Woman → [0.82, -0.10, 0.15, 0.42]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Woman is close to Girl and Human, but far from Neuter objects." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies adult female human concept." }
+ ]
+ },
+ {
+  "Word (English)": "Student",
+  "Root (Tamil)": "Student",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "மாணவர்",
+  "Meaning (English)": "Student",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Student" },
+  { "step": 2, "title": "Tokenization", "detail": "[Student]" },
+  { "step": 3, "title": "Embedding", "detail": "Student → [0.33, 0.55, -0.21, 0.99]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Student is close to School and Book, but far from Market." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to the concept of a learner." }
+ ]
+ },
+ {
+  "Word (English)": "Teacher",
+  "Root (Tamil)": "Teacher",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "ஆசிரியர்",
+  "Meaning (English)": "Teacher",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Teacher" },
+  { "step": 2, "title": "Tokenization", "detail": "[Teacher]" },
+  { "step": 3, "title": "Embedding", "detail": "Teacher → [0.38, 0.59, -0.18, 0.95]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Teacher is close to School and Knowledge, but far from Game." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to the concept of an educator." }
+ ]
+ },
+ {
+  "Word (English)": "Father",
+  "Root (Tamil)": "Father",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "தந்தை",
+  "Meaning (English)": "Father",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Father" },
+  { "step": 2, "title": "Tokenization", "detail": "[Father]" },
+  { "step": 3, "title": "Embedding", "detail": "Father → [0.77, 0.11, 0.05, 0.22]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Father is close to Mother and Parent, but far from Stranger." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies male parent relationship." }
+ ]
+ },
+ {
+  "Word (English)": "Mother",
+  "Root (Tamil)": "Mother",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "தாய்",
+  "Meaning (English)": "Mother",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Mother" },
+  { "step": 2, "title": "Tokenization", "detail": "[Mother]" },
+  { "step": 3, "title": "Embedding", "detail": "Mother → [0.75, 0.10, 0.08, 0.25]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Mother is close to Father and Family, but far from Enemy." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies female parent relationship." }
+ ]
+ },
+ {
+  "Word (English)": "Brother",
+  "Root (Tamil)": "Brother",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "சகோதரன்",
+  "Meaning (English)": "Brother",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Brother" },
+  { "step": 2, "title": "Tokenization", "detail": "[Brother]" },
+  { "step": 3, "title": "Embedding", "detail": "Brother → [0.70, 0.05, 0.12, 0.15]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Brother is close to Sister and Sibling, but far from Car." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies male sibling relationship." }
+ ]
+ },
+ {
+  "Word (English)": "Sister",
+  "Root (Tamil)": "Sister",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "சகோதரி",
+  "Meaning (English)": "Sister",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Sister" },
+  { "step": 2, "title": "Tokenization", "detail": "[Sister]" },
+  { "step": 3, "title": "Embedding", "detail": "Sister → [0.68, 0.04, 0.14, 0.18]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Sister is close to Brother and Family, but far from Stone." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies female sibling relationship." }
+ ]
+ },
+ {
+  "Word (English)": "Friend",
+  "Root (Tamil)": "Friend",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "நண்பர்",
+  "Meaning (English)": "Friend",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Friend" },
+  { "step": 2, "title": "Tokenization", "detail": "[Friend]" },
+  { "step": 3, "title": "Embedding", "detail": "Friend → [0.55, 0.33, 0.11, 0.44]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Friend is close to Human and Help, but far from Fire." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to social companion concept." }
+ ]
+ },
+ {
+  "Word (English)": "Chairs",
+  "Root (Tamil)": "Chair",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "நாற்காலிகள்",
+  "Meaning (English)": "Multiple objects used for sitting",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Chairs" },
+  { "step": 2, "title": "Tokenization", "detail": "[Chair, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Chairs → [0.25, -0.40, 0.82, 0.10]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Chair' (singular) and 'Furniture cluster'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies plural quantity of sitting objects." }
+ ]
+ },
+ {
+  "Word (English)": "Books",
+  "Root (Tamil)": "Book",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "புத்தகங்கள்",
+  "Meaning (English)": "Multiple books",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Books" },
+  { "step": 2, "title": "Tokenization", "detail": "[Book, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Books → [0.35, 0.52, -0.10, 0.88]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Library' and 'Reading materials'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a collection of written works." }
+ ]
+ },
+ {
+  "Word (English)": "Men",
+  "Root (Tamil)": "Man",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "ஆண்கள்",
+  "Meaning (English)": "Men",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Men" },
+  { "step": 2, "title": "Tokenization", "detail": "[Men]" },
+  { "step": 3, "title": "Embedding", "detail": "Men → [0.88, 0.15, -0.02, 0.40]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Man' but shows a plural human vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies multiple adult male humans." }
+ ]
+ },
+ {
+  "Word (English)": "Women",
+  "Root (Tamil)": "Woman",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "பெண்கள்",
+  "Meaning (English)": "Women",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Women" },
+  { "step": 2, "title": "Tokenization", "detail": "[Women]" },
+  { "step": 3, "title": "Embedding", "detail": "Women → [0.84, -0.08, 0.18, 0.38]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Woman' but shows a plural human vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies multiple adult female humans." }
+ ]
+ },
+ {
+  "Word (English)": "Trees",
+  "Root (Tamil)": "Tree",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "மரங்கள்",
+  "Meaning (English)": "Multiple trees",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Trees" },
+  { "step": 2, "title": "Tokenization", "detail": "[Tree, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Trees → [-0.60, 0.95, 0.12, -0.22]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Forest' and 'Nature'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a group of large plants." }
+ ]
+ },
+ {
+  "Word (English)": "Cars",
+  "Root (Tamil)": "Car",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "கார்கள்",
+  "Meaning (English)": "Multiple cars",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Cars" },
+  { "step": 2, "title": "Tokenization", "detail": "[Car, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Cars → [0.44, -0.25, 0.65, 0.12]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Traffic' and 'Vehicles'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies multiple motor vehicles." }
+ ]
+ },
+ {
+  "Word (English)": "Dogs",
+  "Root (Tamil)": "Dog",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "நாய்கள்",
+  "Meaning (English)": "Multiple dogs",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Dogs" },
+  { "step": 2, "title": "Tokenization", "detail": "[Dog, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Dogs → [-0.20, 0.90, 0.05, 0.40]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Pack' and 'Canines'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a group of dogs." }
+ ]
+ },
+ {
+  "Word (English)": "Houses",
+  "Root (Tamil)": "House",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "வீடுகள்",
+  "Meaning (English)": "Multiple houses",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Houses" },
+  { "step": 2, "title": "Tokenization", "detail": "[House, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Houses → [0.55, -0.15, 0.44, 0.90]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Neighborhood' and 'Buildings'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a group of residential buildings." }
+ ]
+ },
+ {
+  "Word (English)": "Birds",
+  "Root (Tamil)": "Bird",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "பறவைகள்",
+  "Meaning (English)": "Multiple birds",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Birds" },
+  { "step": 2, "title": "Tokenization", "detail": "[Bird, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Birds → [-0.40, 0.94, 0.10, -0.15]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Flock' and 'Feathers'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a group of avian creatures." }
+ ]
+ },
+ {
+  "Word (English)": "Flowers",
+  "Root (Tamil)": "Flower",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "N/A",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "மலர்கள்",
+  "Meaning (English)": "Multiple flowers",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Flowers" },
+  { "step": 2, "title": "Tokenization", "detail": "[Flower, s]" },
+  { "step": 3, "title": "Embedding", "detail": "Flowers → [0.15, -0.92, 0.05, 0.77]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Garden' and 'Bouquet'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a collection of flowers." }
+ ]
+ },
+ {
+  "Word (English)": "Arun",
+  "Root (Tamil)": "Arun",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அருண் (பெயர்)",
+  "Meaning (English)": "Arun (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Arun" },
+  { "step": 2, "title": "Tokenization", "detail": "[Arun]" },
+  { "step": 3, "title": "Embedding", "detail": "Arun → [0.89, 0.15, -0.01, 0.33]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Arun is close to other male names like 'Ravi' and 'Vijay'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Male Person (NER)." }
+ ]
+ },
+ {
+  "Word (English)": "Priya",
+  "Root (Tamil)": "Priya",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "பிரியா (பெயர்)",
+  "Meaning (English)": "Priya (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Priya" },
+  { "step": 2, "title": "Tokenization", "detail": "[Priya]" },
+  { "step": 3, "title": "Embedding", "detail": "Priya → [0.86, -0.12, 0.14, 0.31]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Priya is close to other female names like 'Anitha' and 'Kavitha'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Female Person (NER)." }
+ ]
+ },
+ {
+  "Word (English)": "Kumar",
+  "Root (Tamil)": "Kumar",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "குமார் (பெயர்)",
+  "Meaning (English)": "Kumar (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Kumar" },
+  { "step": 2, "title": "Tokenization", "detail": "[Kumar]" },
+  { "step": 3, "title": "Embedding", "detail": "Kumar → [0.88, 0.14, -0.02, 0.35]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Kumar is close to male occupational titles or names." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a Male Person entity." }
+ ]
+ },
+ {
+  "Word (English)": "Lakshmi",
+  "Root (Tamil)": "Lakshmi",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "லட்சுமி (பெயர்)",
+  "Meaning (English)": "Lakshmi (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Lakshmi" },
+  { "step": 2, "title": "Tokenization", "detail": "[Lakshmi]" },
+  { "step": 3, "title": "Embedding", "detail": "Lakshmi → [0.83, -0.11, 0.16, 0.29]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Devi' and other feminine cultural names." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a Female Person entity." }
+ ]
+ },
+ {
+  "Word (English)": "Ravi",
+  "Root (Tamil)": "Ravi",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "ரவி (பெயர்)",
+  "Meaning (English)": "Ravi (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Ravi" },
+  { "step": 2, "title": "Tokenization", "detail": "[Ravi]" },
+  { "step": 3, "title": "Embedding", "detail": "Ravi → [0.87, 0.13, -0.03, 0.32]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Sun' (semantic) and 'Arun' (name-wise)." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Male Person." }
+ ]
+ },
+ {
+  "Word (English)": "Anitha",
+  "Root (Tamil)": "Anitha",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அனிதா (பெயர்)",
+  "Meaning (English)": "Anitha (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Anitha" },
+  { "step": 2, "title": "Tokenization", "detail": "[Anitha]" },
+  { "step": 3, "title": "Embedding", "detail": "Anitha → [0.81, -0.14, 0.12, 0.28]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Priya' and 'Sangeetha' in vector space." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Female Person." }
+ ]
+ },
+ {
+  "Word (English)": "Vijay",
+  "Root (Tamil)": "Vijay",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "விஜய் (பெயர்)",
+  "Meaning (English)": "Vijay (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Vijay" },
+  { "step": 2, "title": "Tokenization", "detail": "[Vijay]" },
+  { "step": 3, "title": "Embedding", "detail": "Vijay → [0.90, 0.16, -0.01, 0.36]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Ajith' and 'Actor' (contextual) or 'Win' (semantic)." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Male Person." }
+ ]
+ },
+ {
+  "Word (English)": "Deepa",
+  "Root (Tamil)": "Deepa",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "தீபா (பெயர்)",
+  "Meaning (English)": "Deepa (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Deepa" },
+  { "step": 2, "title": "Tokenization", "detail": "[Deepa]" },
+  { "step": 3, "title": "Embedding", "detail": "Deepa → [0.80, -0.15, 0.11, 0.27]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Light' (semantic) and 'Jyothi' (name-wise)." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Female Person." }
+ ]
+ },
+ {
+  "Word (English)": "Senthil",
+  "Root (Tamil)": "Senthil",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "செந்தில் (பெயர்)",
+  "Meaning (English)": "Senthil (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Senthil" },
+  { "step": 2, "title": "Tokenization", "detail": "[Senthil]" },
+  { "step": 3, "title": "Embedding", "detail": "Senthil → [0.88, 0.14, -0.04, 0.34]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to other traditional Tamil male names." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Male Person." }
+ ]
+ },
+ {
+  "Word (English)": "Meena",
+  "Root (Tamil)": "Meena",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "மீனா (பெயர்)",
+  "Meaning (English)": "Meena (Proper Name)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Meena" },
+  { "step": 2, "title": "Tokenization", "detail": "[Meena]" },
+  { "step": 3, "title": "Embedding", "detail": "Meena → [0.82, -0.13, 0.13, 0.30]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Fish' (semantic) and 'Vidhya' (name-wise)." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the word as a Female Person." }
+ ]
+ },
+ {
+  "Word (English)": "Eat",
+  "Root (Tamil)": "Eat",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "உண்பது",
+  "Meaning (English)": "To consume food",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Eat" },
+  { "step": 2, "title": "Tokenization", "detail": "[Eat]" },
+  { "step": 3, "title": "Embedding", "detail": "Eat → [-0.44, 0.55, 0.21, -0.10]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Drink' and 'Food', but far from 'Stone'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps concept to the biological action of consuming nutrition." }
+ ]
+ },
+ {
+  "Word (English)": "Run",
+  "Root (Tamil)": "Run",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "ஓடுவது",
+  "Meaning (English)": "To move rapidly on foot",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Run" },
+  { "step": 2, "title": "Tokenization", "detail": "[Run]" },
+  { "step": 3, "title": "Embedding", "detail": "Run → [0.01, 0.99, -0.15, 0.20]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Walk' and 'Fast', but far from 'Sleep'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies rapid physical movement." }
+ ]
+ },
+ {
+  "Word (English)": "Read",
+  "Root (Tamil)": "Read",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "வாசிப்பது",
+  "Meaning (English)": "To process written text",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Read" },
+  { "step": 2, "title": "Tokenization", "detail": "[Read]" },
+  { "step": 3, "title": "Embedding", "detail": "Read → [0.22, 0.44, 0.67, 0.88]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Write' and 'Book', but far from 'Sky'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a cognitive action involving text." }
+ ]
+ },
+ {
+  "Word (English)": "Write",
+  "Root (Tamil)": "Write",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "எழுதுவது",
+  "Meaning (English)": "To create written text",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Write" },
+  { "step": 2, "title": "Tokenization", "detail": "[Write]" },
+  { "step": 3, "title": "Embedding", "detail": "Write → [0.25, 0.41, 0.65, 0.85]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Read' and 'Pen', but far from 'Ocean'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the production of linguistic symbols." }
+ ]
+ },
+ {
+  "Word (English)": "Speak",
+  "Root (Tamil)": "Speak",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "பேசுவது",
+  "Meaning (English)": "To vocalize thoughts",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Speak" },
+  { "step": 2, "title": "Tokenization", "detail": "[Speak]" },
+  { "step": 3, "title": "Embedding", "detail": "Speak → [0.11, 0.88, 0.34, 0.22]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Talk' and 'Voice', but far from 'Silent'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to the concept of oral communication." }
+ ]
+ },
+ {
+  "Word (English)": "Sleep",
+  "Root (Tamil)": "Sleep",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "தூங்குவது",
+  "Meaning (English)": "To rest in an unconscious state",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Sleep" },
+  { "step": 2, "title": "Tokenization", "detail": "[Sleep]" },
+  { "step": 3, "title": "Embedding", "detail": "Sleep → [-0.11, -0.88, 0.45, -0.30]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Rest' and 'Bed', but far from 'Jump'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a state of biological inactivity." }
+ ]
+ },
+ {
+  "Word (English)": "Jump",
+  "Root (Tamil)": "Jump",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "குதிப்பது",
+  "Meaning (English)": "To spring off the ground",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Jump" },
+  { "step": 2, "title": "Tokenization", "detail": "[Jump]" },
+  { "step": 3, "title": "Embedding", "detail": "Jump → [0.08, 0.95, 0.10, 0.40]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Hop' and 'High', but far from 'Sit'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to upward physical movement." }
+ ]
+ },
+ {
+  "Word (English)": "Think",
+  "Root (Tamil)": "Think",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "யோசிப்பது",
+  "Meaning (English)": "To use the mind to consider",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Think" },
+  { "step": 2, "title": "Tokenization", "detail": "[Think]" },
+  { "step": 3, "title": "Embedding", "detail": "Think → [0.41, 0.51, 0.99, -0.10]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Know' and 'Mind', but far from 'Kick'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies an internal mental process." }
+ ]
+ },
+ {
+  "Word (English)": "Draw",
+  "Root (Tamil)": "Draw",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "வரைவது",
+  "Meaning (English)": "To create a picture",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Draw" },
+  { "step": 2, "title": "Tokenization", "detail": "[Draw]" },
+  { "step": 3, "title": "Embedding", "detail": "Draw → [0.28, 0.35, 0.88, 0.12]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Art' and 'Paint', but far from 'Talk'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a creative visual action." }
+ ]
+ },
+ {
+  "Word (English)": "Sing",
+  "Root (Tamil)": "Sing",
+  "Category": "Verb",
+  "Gender": "N/A",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "N/A",
+  "Tense": "Present",
+  "Meaning (Tamil)": "பாடுவது",
+  "Meaning (English)": "To perform musical sounds with voice",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Sing" },
+  { "step": 2, "title": "Tokenization", "detail": "[Sing]" },
+  { "step": 3, "title": "Embedding", "detail": "Sing → [0.88, 0.22, 0.35, 0.11]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Music' and 'Song', but far from 'Silent'." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the action of vocal performance." }
+ ]
+ },
+ {
+  "Word (English)": "I",
+  "Root (Tamil)": "I",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "நான்",
+  "Meaning (English)": "The person speaking",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "I" },
+  { "step": 2, "title": "Tokenization", "detail": "[I]" },
+  { "step": 3, "title": "Embedding", "detail": "I → [0.99, 0.01, 0.05, -0.10]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Self' and 'Me'. Highest self-reference vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the speaker as the subject." }
+ ]
+ },
+ {
+  "Word (English)": "You",
+  "Root (Tamil)": "You",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "Second",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "நீ",
+  "Meaning (English)": "The person being spoken to",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "You" },
+  { "step": 2, "title": "Tokenization", "detail": "[You]" },
+  { "step": 3, "title": "Embedding", "detail": "You → [0.95, 0.05, 0.10, -0.15]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Friend' or 'Listener' in conversational context." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the addressee." }
+ ]
+ },
+ {
+  "Word (English)": "He",
+  "Root (Tamil)": "He",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அவன்",
+  "Meaning (English)": "Third person male",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "He" },
+  { "step": 2, "title": "Tokenization", "detail": "[He]" },
+  { "step": 3, "title": "Embedding", "detail": "He → [0.88, 0.12, 0.02, 0.40]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Strong male gender bias; close to 'Man' and 'Boy' vectors." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Refers back to a previously mentioned male entity." }
+ ]
+ },
+ {
+  "Word (English)": "She",
+  "Root (Tamil)": "She",
+  "Category": "Noun",
+  "Gender": "Female",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அவள்",
+  "Meaning (English)": "Third person female",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "She" },
+  { "step": 2, "title": "Tokenization", "detail": "[She]" },
+  { "step": 3, "title": "Embedding", "detail": "She → [0.85, -0.10, 0.15, 0.38]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Strong female gender bias; close to 'Woman' and 'Girl' vectors." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Refers back to a previously mentioned female entity." }
+ ]
+ },
+ {
+  "Word (English)": "It",
+  "Root (Tamil)": "It",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அது",
+  "Meaning (English)": "Third person neuter object",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "It" },
+  { "step": 2, "title": "Tokenization", "detail": "[It]" },
+  { "step": 3, "title": "Embedding", "detail": "It → [0.10, -0.20, 0.50, 0.99]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Thing' or 'Object'. Low human-reference vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Refers back to a non-human object or animal." }
+ ]
+ },
+ {
+  "Word (English)": "They",
+  "Root (Tamil)": "They",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அவர்கள்",
+  "Meaning (English)": "Third person plural",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "They" },
+  { "step": 2, "title": "Tokenization", "detail": "[They]" },
+  { "step": 3, "title": "Embedding", "detail": "They → [0.80, 0.10, 0.40, 0.50]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'People' and 'Group'. Multi-entity vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Refers to a group of persons or things." }
+ ]
+ },
+ {
+  "Word (English)": "We",
+  "Root (Tamil)": "We",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "Nominative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "நாங்கள்",
+  "Meaning (English)": "The speaker and others",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "We" },
+  { "step": 2, "title": "Tokenization", "detail": "[We]" },
+  { "step": 3, "title": "Embedding", "detail": "We → [0.90, 0.20, 0.35, -0.05]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'Us' and 'Our'. High group-reference vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies the group including the speaker." }
+ ]
+ },
+ {
+  "Word (English)": "Us",
+  "Root (Tamil)": "Us",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "First",
+  "Script": "Tamil",
+  "Case": "Accusative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "எங்களை",
+  "Meaning (English)": "The speaker and others (as object)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Us" },
+  { "step": 2, "title": "Tokenization", "detail": "[Us]" },
+  { "step": 3, "title": "Embedding", "detail": "Us → [0.88, 0.18, 0.32, -0.08]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'We'. Identifies group-as-object." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a group receiving an action." }
+ ]
+ },
+ {
+  "Word (English)": "Them",
+  "Root (Tamil)": "Them",
+  "Category": "Noun",
+  "Gender": "Neuter",
+  "Number": "Plural",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Accusative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அவர்களை",
+  "Meaning (English)": "Others (as object)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Them" },
+  { "step": 2, "title": "Tokenization", "detail": "[Them]" },
+  { "step": 3, "title": "Embedding", "detail": "Them → [0.78, 0.08, 0.42, 0.45]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'They'. Identifies others-as-object." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Maps to a third-party group receiving an action." }
+ ]
+ },
+ {
+  "Word (English)": "Him",
+  "Root (Tamil)": "Him",
+  "Category": "Noun",
+  "Gender": "Male",
+  "Number": "Singular",
+  "Person": "Third",
+  "Script": "Tamil",
+  "Case": "Accusative",
+  "Tense": "N/A",
+  "Meaning (Tamil)": "அவனை",
+  "Meaning (English)": "Male person (as object)",
+  "NLP_Workflow": [
+  { "step": 1, "title": "Input", "detail": "Him" },
+  { "step": 2, "title": "Tokenization", "detail": "[Him]" },
+  { "step": 3, "title": "Embedding", "detail": "Him → [0.82, 0.10, 0.04, 0.35]" },
+  { "step": 4, "title": "Semantic Similarity", "detail": "Close to 'He'. High male-as-object vector." },
+  { "step": 5, "title": "Meaning Generation", "detail": "Identifies a specific male receiving an action." }
+ ]
+ }
+]
