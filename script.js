@@ -1,5 +1,47 @@
 let dataset = {};
 
+// ===== NLP FUNCTIONS =====
+
+const tamilStopWords = [
+    "ஒரு", "இந்த", "அந்த", "மற்றும்", "என்று", "உம்", "இல்"
+];
+
+function posTag(word) {
+    if (word.endsWith("கள்")) return "Noun (Plural)";
+    if (word.endsWith("ம்")) return "Noun";
+    if (word.endsWith("கிறது") || word.endsWith("வான்")) return "Verb";
+    return "Unknown";
+}
+
+function removePunctuation(word) {
+    return word.replace(/[.,!?;:'"()]/g, "");
+}
+
+function removeStopWord(word) {
+    return tamilStopWords.includes(word) ? "Removed" : word;
+}
+
+function stemWord(word) {
+    const suffixes = ["கள்", "ங்கள்", "வுகள்", "ம்", "இல்", "ஐ"];
+    for (let suf of suffixes) {
+        if (word.endsWith(suf)) {
+            return word.slice(0, -suf.length);
+        }
+    }
+    return word;
+}
+
+const lemmaDict = {
+    "மரங்கள்": "மரம்",
+    "மரத்தில்": "மரம்",
+    "சென்றான்": "செல்",
+    "வந்தாள்": "வா"
+};
+
+function lemmatize(word) {
+    return lemmaDict[word] || stemWord(word);
+}
+
 // ================= LOAD DATASET =================
 fetch("Tamil_Word_Analysis_Dataset.json")
     .then(res => res.json())
@@ -164,4 +206,19 @@ document.getElementById("generate-btn").addEventListener("click", () => {
         result.textContent = "❌ Cannot generate word for given features";
         result.className = "result-box incorrect";
     }
+// ===== NLP AUTO RUN (ADD ONLY) =====
+document.getElementById("check-btn").addEventListener("click", () => {
+
+    const word = document.getElementById("word-input").value.trim();
+    if (!word) return;
+
+    const clean = removePunctuation(word);
+
+    document.getElementById("pos").value = posTag(clean);
+    document.getElementById("punctuation").value = clean;
+    document.getElementById("stopword").value = removeStopWord(clean);
+    document.getElementById("stem").value = stemWord(clean);
+    document.getElementById("lemma").value = lemmatize(clean);
+});
+
 });
